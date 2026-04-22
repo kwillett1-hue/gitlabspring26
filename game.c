@@ -171,6 +171,7 @@ int main(int argc, char *argv[])
 			case 27:
 			{
 				puts("room27");
+        theSigmaMethod();
 				break;
 			}
 			case 28:
@@ -428,6 +429,6 @@ int main(int argc, char *argv[])
 
 void theSigmaMethod(void)
 {
-  printf("J.Q.");
+  printf("J.Q.\n");
 
 }
