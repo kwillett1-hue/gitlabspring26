@@ -14,16 +14,38 @@
 #include <unistd.h>
 
 //place function prototypes here
+
 void RRlab(void);
+
+
+void jwFunc(void);
+
+
+void jsl();
+
+
+
+void dcFun(void);
+
+
+void abFun(void);
+
+
+void function13AG(void);
+
+
+void theSigmaMethod(void);
+
+
 
 void jbInit(void);
 
 void ip21(void);
 
-
 void folksamEV(void);
 
 void ip21(void);
+
 
 void rtFun(void);
 
@@ -35,14 +57,17 @@ void printStudent30(void);
 
 void printInitialsAjewett(void);
 
+
 void jgFun(void);
 
 
 
 
+void brooklynstitt(void);
 
 
 
+void PogoAM(void);
 
 int main(int argc, char *argv[])
 {
@@ -94,6 +119,7 @@ int main(int argc, char *argv[])
 			}
 			case 7:
 			{
+				jwFunc();
 				puts("room7");
 				break;
 			}
@@ -127,11 +153,13 @@ int main(int argc, char *argv[])
 			}
 			case 13:
 			{
+				function13AG();
 				puts("room13");
 				break;
 			}
 			case 14:
 			{
+				dcFun();
 				puts("room14");
 				break;
 			}
@@ -200,6 +228,7 @@ int main(int argc, char *argv[])
 			case 27:
 			{
 				puts("room27");
+        theSigmaMethod();
 				break;
 			}
 			case 28:
@@ -208,7 +237,8 @@ int main(int argc, char *argv[])
 				break;
 			}
 			case 29:
-			{
+			{	
+				abFun();
 				puts("room29");
 				break;
 			}
@@ -220,6 +250,8 @@ int main(int argc, char *argv[])
 			}
 			case 31:
 			{
+				PogoAM();
+
 				puts("room31");
 				break;
 			}
@@ -287,6 +319,7 @@ int main(int argc, char *argv[])
 			case 45:
 			{
 				puts("room45");
+				brooklynstitt();
 				break;
 			}
 			case 46:
@@ -358,6 +391,7 @@ int main(int argc, char *argv[])
                         }
 			case 59:
                         {
+				jsl();
                                 puts("room59");
                                 break;
                         }
@@ -458,10 +492,57 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+
 void RRlab(void)
 {
 	printf("RRroom61\n");
 }
+
+
+void jwFunc(void)
+{
+	printf("JW\n");
+}
+
+
+
+void jsl(void)
+{
+	printf("JSL\n");
+}
+
+
+
+
+void PogoAM(void)
+{
+	printf("AM\n");
+}
+void dcFun(void)
+{
+	printf("DC\n");
+}
+
+
+
+
+void function13AG(void)
+{
+	printf("AG\n");
+}
+void abFun(void)
+{
+	printf("AB");
+}
+
+
+
+void theSigmaMethod(void)
+{
+  printf("J.Q.\n");
+
+}
+
 void folksamEV(void) 
 {
 	printf("EV\n");
@@ -470,6 +551,12 @@ void folksamEV(void)
 void jbInit()
 {
 	puts("jbRoom17");
+}
+
+// Case 45:
+void brooklynstitt(void)
+{
+	printf("Initials: BAS\n\n");
 }
 
 void ip21(void)
@@ -490,12 +577,14 @@ void JLeyva(void)
 void fish(void) 
 {
 	printf("JF");
+
 }
 
 void printStudent30(void)
 {
 	printf("Student initials CP\n");
 }
+
 void printInitialsAjewett(void)
 {
 	printf("AJ\n");
@@ -504,4 +593,8 @@ void printInitialsAjewett(void)
 void jgFun(void)
 {
 	printf("JGB");	
+
 }
+
+
+
